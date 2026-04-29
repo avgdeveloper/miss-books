@@ -4,10 +4,13 @@ export const storageService = {
 }
 
 function saveToStorage(key, val) {
-    localStorage.setItem(key, JSON.stringify(val))
+    return Promise.resolve(
+        localStorage.setItem(key, JSON.stringify(val))
+    )
 }
 
 function loadFromStorage(key) {
-    var val = localStorage.getItem(key)
-    return JSON.parse(val)
+    return Promise.resolve(
+        JSON.parse(localStorage.getItem(key)) || []
+    )
 }
