@@ -15,7 +15,7 @@ export function App() {
 
     return (
         <section className="app">
-            <AppHeader onSetPage={onSetPage} />
+            <AppHeader page={page} onSetPage={onSetPage} />
             <main className="main-layout">
                 {page === "home" && <Home />}
                 {page === "about" && <About />}
