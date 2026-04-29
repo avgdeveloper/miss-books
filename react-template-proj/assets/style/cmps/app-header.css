@@ -3,3 +3,15 @@
     color: var(--clr1bg);
     padding-block: 1em;
 }
+
+.main-layout {
+    display: flex;
+    justify-content: space-between;
+    /* left + right separation */
+    align-items: center;
+}
+
+nav a {
+    padding: 20px;
+    font-size: 20px;
+}
