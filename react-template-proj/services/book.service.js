@@ -24,7 +24,7 @@ function _createBooks() {
         "description": "placerat nisi sodales suscipit tellus",
         "thumbnail": "http://ca.org/books-photos/20.jpg",
         "listPrice": {
-            "amount": 109,
+            "amount": 150,
             "currencyCode": "EUR",
             "isOnSale": false
         }
@@ -44,7 +44,7 @@ function _createBooks() {
         "description": "placerat nisi sodales suscipit tellus",
         "thumbnail": "http://ca.org/books-photos/20.jpg",
         "listPrice": {
-            "amount": 109,
+            "amount": 80,
             "currencyCode": "EUR",
             "isOnSale": false
         }
