@@ -1,0 +1,15 @@
+.book-filter {
+    background-color: lightpink;
+    padding-inline: 1em;
+    padding: 20px;
+}
+
+.book-filter form {
+    display: grid;
+    grid-template-columns: 100px 200px;
+    gap: .5em;
+}
+
+.book-filter form button {
+    margin-inline: 0
+}

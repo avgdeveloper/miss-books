@@ -4,7 +4,7 @@
     padding-block: 1em;
 }
 
-.main-layout {
+.app-header.main-layout {
     display: flex;
     justify-content: space-between;
     /* left + right separation */
